@@ -1,0 +1,19 @@
+.FirstBox {
+    width: 50%;
+    float: left;
+}
+
+.FirstBox p {
+    margin: 0;
+}
+
+.SecondBox {
+    width: 50%;
+    float: left;
+}
+
+.SecondBox div {
+    float: right;
+    margin: 0;
+    padding: 0;
+}

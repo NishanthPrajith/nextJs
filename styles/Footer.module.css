@@ -1,0 +1,23 @@
+.FirstBox {
+    width: 50%;
+    float: left;
+    padding-bottom: 2%;
+}
+.FirstBox p {
+    margin: 0;
+
+    text-align: left;
+}
+
+.SecondBox {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: left;
+}
+
+.SecondBox div {
+    width: 20%;
+    text-align: center;
+}
