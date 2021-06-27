@@ -5,7 +5,7 @@ const NavBar = () => {
         <nav>
             <div className = {styles.FirstBox}>
                 <p>Nishanth Prajith</p>
-                <p>University Student</p>
+                <p style = {{color: 'gray'}}>University Student</p>
             </div>
             <div className = {styles.SecondBox}>
                 <div>

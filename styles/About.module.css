@@ -29,6 +29,13 @@
 }
 .firstOne p {
     width: 80%;
+
+}
+
+.firstOne h1 {
+    width: 80%;
+    text-align: left;
+    font-size: 3em;
 }
 
 .secondOne {

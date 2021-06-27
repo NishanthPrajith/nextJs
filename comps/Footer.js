@@ -15,7 +15,7 @@ const Footer = () => {
     return (
         <footer>
             <div className = {styles.FirstBox}>
-                <p>
+                <p style = {{color: "gray"}}>
                 <FontAwesomeIcon icon={['far', 'copyright']} style = {{width: '15px', paddingRight: "3px"}} />
                  2021 | Nishanth Prajith</p>
             </div>
