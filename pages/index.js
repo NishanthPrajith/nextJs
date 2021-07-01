@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className = {styles.box}>
-          <p className = {styles.title}>Hello, I&apos;m Nishanth Prajith.</p>
+          <p className = {styles.title}>Hello, I&apos;m <br></br>Nishanth Prajith.</p>
           <div className = {styles.info}>
             <div className = {styles.scroll}>
                 <p>&larr; Scroll Down</p>
