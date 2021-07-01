@@ -1,19 +1,25 @@
-.FirstBox {
-    width: 50%;
-    float: left;
+.FirstBox p{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
 }
 
-.FirstBox p {
-    margin: 0;
+.SecondBox ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.SecondBox ul li {
+    font-size: 17px;
+    font-weight: 500;
+    float: left;
+    text-align: center;
+    margin-left: 6%;
 }
 
 .SecondBox {
     width: 50%;
-    float: left;
-}
-
-.SecondBox div {
+    position: relative;
     float: right;
-    margin: 0;
-    padding: 0;
 }

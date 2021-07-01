@@ -1,12 +1,8 @@
-.FirstBox {
-    width: 50%;
-    float: left;
-    padding-bottom: 2%;
-}
 .FirstBox p {
     margin: 0;
-
+    font-size: 17px;
     text-align: left;
+    color: #2429AF;
 }
 
 .SecondBox {

@@ -1,196 +1,111 @@
 .container {
-    min-height: 100vh;
-    padding: 0 0.5rem;
-    margin-bottom: 3%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-  
-.main {
     width: 100%;
 }
 
-.box{
+
+.mainTitle {
     width: 100%;
+    height: 92vh;
     display: flex;
-}
-
-.firstOne {
-    width: 50%;
-    font-size: 1.2em;
-    float: left;
-    display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    flex-direction: column;
-}
-.firstOne p {
-    width: 80%;
-
-}
-
-.firstOne h1 {
-    width: 80%;
-    text-align: left;
-    font-size: 3em;
-}
-
-.secondOne {
-    width: 50%;
-    margin: 3.5%;
-}
-
-.rotatedAbout {
-    width: 20%;
-    float: left;
-    transform: rotate(90deg);
-    font-weight: bold;
-    font-size: 8em;
-}
-
-.rotatedAbout p  {
-    margin: 0;
-}
-  
-.imageOne {
-    width: 80%;
-    float: left;
-}
-
-/* Second Page */
-.firstInfo {
-    width: 15%;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.firstData {
-    padding-bottom: 5%;
-    width: 80%;
-    float: left;
-    margin: 2%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-
-.firstDataProgram {
-    width: 90%;
-    float: left;
-    margin: 2%;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.firstInfoTwo {
-    width: 15%;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 12%;
-}
-
-.firstInfoTwo p {
-    width: 85%;
-    font-weight: bold;
-    font-size: 4em;
-    margin: 0; 
-}
-
-.firstInfo p {
-    width: 85%;
-    font-weight: bold;
-    font-size: 4em;
-    margin-bottom: 0;
 }
 
 .One {
-    transform: rotate(-90deg);
-}
-
-.Two {
-    transform: rotate(90deg);
-}
-
-
-.circleOne {
-    position: absolute;
-    margin-left: 0.5%;
-    margin-top: 0.5%;
-    padding: 0;
-}
-
-.lineOne {
-    position: relative;
-    padding-left: 2%;
-    border-left: #000 solid 3px;
-    margin-left: 1.1%;
-}
-
-.circleTwo {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    margin-left: 0.5%;
-    margin-top: 0.5%;
-}
-
-.lineTwo {
-    position: relative;
-    padding-left: 2%;
-    border-left: #000 solid 3px;
-    margin-left: 1.1%;
-}
-
-.boxYear {
-    margin: 2% 0 0 0;
-    padding: 1%;
-    text-align: center;
-    width: 15%;
-    background-color: #eef0f2;
-}
-
-.boxYearTwo {
-    width: 33.33%;
-    text-align: center;
+    width: 50%;
     float: left;
 }
 
-.boxYearTwo p {
-    background-color: #eef0f2;
+.Two {
     width: 50%;
-    padding: 3%;
+    float: left;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.makeItalic {
+.title {
+    font-weight: 600;
+    font-size: 52px;
+    margin: 0;
+    width: 60%;
+}
+
+.description {
+    font-size: 22px;
+    width: 75%;
+    color: #606060;
+}
+
+.contact {
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+
+.contact div {
+    width: 50%;
+    float: left;
+}
+
+.contactLeft p {
+    font-size: 32px;
+    width: 60%;
+    color: #181717;
+}
+
+.contactRight p:nth-child(1) {
+    font-size: 32px;
+    color: #181717;
+}
+
+.contactRight p:nth-child(2) {
+    font-size: 18px;
+    color: #181717;
+}
+
+.contactRight p:nth-child(2):hover {
+    text-decoration: underline;
+}
+
+.resume {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info p:nth-child(n + 2){
+    margin: 0;
+}
+
+.category p {
+    margin: 0;
+}
+
+.italic {
     font-style: italic;
 }
 
-.circleTwoOne {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    margin-left: 0.44%;
-    margin-top: 0.5%;
+.category {
+    width: 25%;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3.55px;
 }
 
-.circleTwoTwo {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    margin-left: 0.44%;
-    margin-top: 0.5%;
+.info {
+    width: 75%;
+}
+
+.info div p:nth-child(1) {
+    margin-top: 0;
+}
+
+.info i {
+    font-size: 25px;
+    margin: 0 2%;
+    color: #606060;
 }
