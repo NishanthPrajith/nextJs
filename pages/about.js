@@ -68,15 +68,15 @@ export default function About() {
                     <p>Coding</p>
                 </div>
                 <div className = {styles.info}>
-                    <i class="devicon-flutter-plain"></i>
-                    <i class="devicon-html5-plain"></i>
-                    <i class="devicon-css3-plain"></i>
-                    <i class="devicon-java-plain"></i>
-                    <i class="devicon-javascript-plain"></i>
-                    <i class="devicon-cplusplus-plain"></i>
-                    <i class="devicon-mysql-plain"></i>
-                    <i class="devicon-python-plain"></i>
-                    <i class="devicon-dart-plain"></i>
+                    <i className="devicon-flutter-plain"></i>
+                    <i className="devicon-html5-plain"></i>
+                    <i className="devicon-css3-plain"></i>
+                    <i className="devicon-java-plain"></i>
+                    <i className="devicon-javascript-plain"></i>
+                    <i className="devicon-cplusplus-plain"></i>
+                    <i className="devicon-mysql-plain"></i>
+                    <i className="devicon-python-plain"></i>
+                    <i className="devicon-dart-plain"></i>
                 </div>
             </div>
             <hr></hr>

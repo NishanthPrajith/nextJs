@@ -24,8 +24,8 @@ export default function Portfolio() {
                     <h2>01 / UI with Google Maps</h2>
                     <p>Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.</p>
                     <div className = {styles.languages}>
-                        <i class="devicon-flutter-plain"></i>
-                        <i class="devicon-dart-plain"></i>
+                        <i className="devicon-flutter-plain"></i>
+                        <i className="devicon-dart-plain"></i>
                     </div>
                 </div>
                 <div className = {styles.secondBox}>
@@ -38,8 +38,8 @@ export default function Portfolio() {
                     <h2>02 / Music App IU</h2>
                     <p>Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.</p>
                     <div className = {styles.languages}>
-                        <i class="devicon-flutter-plain"></i>
-                        <i class="devicon-dart-plain"></i>
+                        <i className="devicon-flutter-plain"></i>
+                        <i className="devicon-dart-plain"></i>
                     </div>
                 </div>
                 <div className = {styles.secondBox}>
@@ -52,8 +52,8 @@ export default function Portfolio() {
                     <h2>03 / Food App UI</h2>
                     <p>Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.</p>
                     <div className = {styles.languages}>
-                        <i class="devicon-flutter-plain"></i>
-                        <i class="devicon-dart-plain"></i>
+                        <i className="devicon-flutter-plain"></i>
+                        <i className="devicon-dart-plain"></i>
                     </div>
                 </div>
                 <div className = {styles.secondBox}>
@@ -66,8 +66,8 @@ export default function Portfolio() {
                     <h2>04 / Events App UI</h2>
                     <p>Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.</p>
                     <div className = {styles.languages}>
-                        <i class="devicon-flutter-plain"></i>
-                        <i class="devicon-dart-plain"></i>
+                        <i className="devicon-flutter-plain"></i>
+                        <i className="devicon-dart-plain"></i>
                     </div>
                 </div>
                 <div className = {styles.secondBox}>
@@ -83,8 +83,8 @@ export default function Portfolio() {
                     <h2>05 / Web App UI (Design from Dribble)</h2>
                     <p>Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.</p>
                     <div className = {styles.languages}>
-                        <i class="devicon-flutter-plain"></i>
-                        <i class="devicon-dart-plain"></i>
+                        <i className="devicon-flutter-plain"></i>
+                        <i className="devicon-dart-plain"></i>
                     </div>
                 </div>
             </div>
