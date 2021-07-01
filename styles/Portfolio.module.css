@@ -82,3 +82,25 @@
     float: left;
     text-align: center;
 }
+
+@media screen and (max-width: 850px) {
+    .firstBox {
+        width: 100%;
+        float: left;
+        justify-content: none;
+        height: 50vh;
+    }
+    .secondBox {
+        width: 100%;
+        float: left;
+    }
+    .mainTitle {
+        height: 83vh;
+    }
+    .title {
+        font-size: 80px;
+    }
+    .languages i {
+        width: 15%;
+    }
+}

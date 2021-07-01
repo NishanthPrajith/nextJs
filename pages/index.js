@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
+import Profile from '../images/Three.jpg'
 
 export default function Home() {
   return (
@@ -10,9 +12,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to Next.js!
-        </h1>
+        <div className = {styles.box}>
+          <p className = {styles.title}>Hello, I'm Nishanth Prajith.</p>
+          <div className = {styles.info}>
+            <div className = {styles.scroll}>
+                <p>&larr; Scroll Down</p>
+            </div>
+            <div className = {styles.introText}>
+              <p>A junior computer science student who is aspiring to be a Data Scientist.</p>
+            </div>
+            <div className = {styles.introImage}>
+              <p>Hello world!</p>
+            </div>
+            <div className = {styles.introTextTwo}>
+              <div>
+                  <p>A junior computer science student who is aspiring to be a Data Scientist.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   )

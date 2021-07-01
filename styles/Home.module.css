@@ -1,6 +1,4 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -9,22 +7,134 @@
 }
 
 .main {
-  flex: 1;
+  height: 90vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.box {
+  height: 60vh;
+  width: 100%;
+}
+
+.info {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.introText {
+  width: 30%;
+  background-color: #E1E1E1;
+  height: 85%;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.introText p {
+  width: 85%;
+  color: #606060;
+  font-size: 30px;
+}
+
+.introTextTwo {
+  width: 100%;
+  background-color: #E1E1E1;
+  display: none;
+}
+
+.introText p {
+  width: 85%;
+  color: #606060;
+  font-size: 30px;
+}
+
+
+.scroll {
+  width: 15%;
+  text-align: right;
+  font-size: 20px;
+  transform: rotate(-90deg);
+}
+
+.introImage {
+  border-top-right-radius: 150px;
+  width: 55%;
+  text-align: center;
+  height: 85%;
+  background-color: #1D1F23;
+  background-image: -moz-repeating-radial-gradient();
+}
+
 .title {
+  position: absolute;
+  z-index: 1;
+  width: 35%;
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
+  font-size: 75px;
 }
 
 
+@media screen and (max-width: 850px) {
+  .scroll {
+    display: none;
+  }
+  .title {
+    width: 100%;
+    font-size: 60px;
+    position: inherit;
+  }
+  .info {
+    display: inherit;
+    height: auto;
+  }
+  .introImage {
+    position: relative;
+    width: 110%;
+    border-top-right-radius: 60px;
+    height: 48vh;
+    left: -9%;
+    margin: 14% 0 0 0;
+  }
+
+  .introText {
+    display: none;
+  }
+  
+  .introTextTwo {
+    display: block;
+    position: relative;
+    right: -9%;
+    height: 50vh;
+  }
+
+  .introTextTwo div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .introTextTwo p {
+    width: 80%;
+    margin: 0;
+    font-size: 23px;
+  }
+
+  .main {
+    height: auto;
+  }
+  .box {
+    margin-top: 35%;
+    height: auto;
+  }
+}

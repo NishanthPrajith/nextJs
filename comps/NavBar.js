@@ -5,7 +5,11 @@ const NavBar = () => {
     return (
         <nav>
             <div className = {styles.FirstBox}>
-                <p>np.</p>
+                <p>
+                    <Link href = '/'>
+                        np.
+                    </Link>
+                </p>
             </div>
             <div className = {styles.SecondBox}>
                 <div>

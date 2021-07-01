@@ -109,3 +109,71 @@
     margin: 0 2%;
     color: #606060;
 }
+
+.second {
+    margin-top: '3%';
+}
+
+@media screen and (max-width: 850px) {
+    .One {
+        width: 100%;
+    }
+    .Two {
+        width: 100%;
+    }
+    .mainTitle {
+        flex-direction: column;
+        margin-top: 20%;
+        height: auto;
+    }
+    .title {
+        width: 100%;
+    }
+    .description {
+        width: 100%;
+    }
+    .resume {
+        flex-direction: column;
+    }
+    .category {
+        width: 100%;
+        margin-bottom: 8%;
+    }
+
+    .second {
+        margin-top: 12%;
+    }
+    .info {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact div{
+        width: 100%;
+        float: left;
+    }
+
+    .contactLeft p {
+        font-size: 25px;
+        width: 100%;
+        color: #181717;
+    }
+
+    .contactRight p:nth-child(1) {
+        font-size: 24px;
+    }
+    
+    .contactRight p:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .info i {
+        font-size: 25px;
+        margin: 0 1.5%;
+        color: #606060;
+    }
+}

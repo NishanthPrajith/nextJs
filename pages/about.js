@@ -28,6 +28,7 @@ export default function About() {
                         I am a dynamic and reliable Software Developer with a strong work ethic and a passion for developing user-centric products. Ability to function well independently with little to no supervision or in coordination with a professional team. Experienced in a wide array of programming languages, frameworks and content management sites such as Wordpress.
                     </p>
                 </div>
+                
                 <div className = {styles.Two}>
                     <Image src = {Three} />
                 </div>
@@ -42,7 +43,7 @@ export default function About() {
                         <p className = {styles.italic}>City College Of New York, New York City, NY (2019 - Current)</p>
                         <p>I studied web developement and graphic design, specically HTML, CSS, Adobe Photoshop and Illustrator.</p>
                     </div>
-                    <div style = {{marginTop: '3%'}}>
+                    <div className = {styles.second}>
                         <p>WEB DESIGN</p>
                         <p className = {styles.italic}>Thomas A. Edison C.T.E High School, Jamaica, NY (2015 - 2018)</p>
                         <p>Currently, studying Computer science at the grove school of engineering.</p>

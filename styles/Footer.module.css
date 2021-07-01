@@ -17,3 +17,22 @@
     width: 20%;
     text-align: center;
 }
+
+@media screen and (max-width: 850px) {
+    .FirstBox {
+        width: 100%;
+        float: left;
+        margin-bottom: 5%;
+    }
+
+    .FirstBox p {
+        text-align: center;
+    }
+
+    .SecondBox {
+        width: 100%;
+        float: left;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+}
