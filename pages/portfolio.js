@@ -75,7 +75,7 @@ export default function Portfolio() {
                 </div>
             </div>
             <hr></hr>
-            <div class = {styles.projects} style = {{marginBottom: '10%'}}>
+            <div className = {styles.projects} style = {{marginBottom: '10%'}}>
                 <div className = {styles.FullImage}>
                     <Image src = {Five} alt = " Web App UI (Design from Dribble)" />
                 </div>
