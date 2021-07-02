@@ -30,7 +30,7 @@ export default function About() {
                 </div>
                 
                 <div className = {styles.Two} data-aos = "fade-left">
-                    <Image src = {Three} />
+                    <Image src = {Three} alt = "My Image"/>
                 </div>
             </div>
             <div className = {styles.resume} style = {{marginTop: "5%"}}>
