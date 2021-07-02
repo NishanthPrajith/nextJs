@@ -59,3 +59,11 @@
         margin-bottom: 5%;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .shadow {
+        height: 65px;
+        width: 65px;
+        margin-left: 16%;
+    }
+}
