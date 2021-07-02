@@ -114,6 +114,15 @@
     margin-top: '3%';
 }
 
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 40px;
+    }
+    .description {
+        font-size: 19px;
+    }
+}
+
 @media screen and (max-width: 850px) {
     .One {
         width: 100%;
