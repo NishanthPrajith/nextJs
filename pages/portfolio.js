@@ -17,74 +17,74 @@ export default function Portfolio() {
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"></link>
             </Head>
             <div className = {styles.mainTitle}>
-                <p className = {styles.title}>My Projects.</p>
+                <p className = {styles.title} data-aos = "fade-up">My Projects.</p>
             </div>
             <div className = {styles.projects}>
                 <div className = {styles.firstBox}>
-                    <h2>01 / UI with Google Maps</h2>
-                    <p>Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.</p>
+                    <h2 data-aos = "fade-right">01 / UI with Google Maps</h2>
+                    <p data-aos = "fade-right" data-aos-delay = "100">Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.</p>
                     <div className = {styles.languages}>
-                        <i className="devicon-flutter-plain"></i>
-                        <i className="devicon-dart-plain"></i>
+                        <i className="devicon-flutter-plain" data-aos = "fade-up" data-aos-delay = "200"></i>
+                        <i className="devicon-dart-plain" data-aos = "fade-up" data-aos-delay = "300"></i>
                     </div>
                 </div>
-                <div className = {styles.secondBox}>
+                <div className = {styles.secondBox} data-aos = "fade-left">
                     <Image alt ="UI with Google Maps" src = {First} />
                 </div>
             </div>
-            <hr></hr>
+            <hr data-aos = "fade-right"></hr>
             <div className = {styles.projects}>
                 <div className = {styles.firstBox}>
-                    <h2>02 / Music App IU</h2>
-                    <p>Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.</p>
+                    <h2 data-aos = "fade-right">02 / Music App IU</h2>
+                    <p data-aos = "fade-right" data-aos-delay = "100">Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.</p>
                     <div className = {styles.languages}>
-                        <i className="devicon-flutter-plain"></i>
-                        <i className="devicon-dart-plain"></i>
+                        <i className="devicon-flutter-plain" data-aos = "fade-up" data-aos-delay = "200"></i>
+                        <i className="devicon-dart-plain" data-aos = "fade-up" data-aos-delay = "300"></i>
                     </div>
                 </div>
-                <div className = {styles.secondBox}>
+                <div className = {styles.secondBox} data-aos = "fade-left">
                     <Image alt ="Music App UI" src = {Second} />
                 </div>
             </div>
-            <hr></hr>
+            <hr data-aos = "fade-right"></hr>
             <div className = {styles.projects} style = {{marginBottom: '10%'}}>
                 <div className = {styles.firstBox}>
-                    <h2>03 / Food App UI</h2>
-                    <p>Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.</p>
+                    <h2 data-aos = "fade-right">03 / Food App UI</h2>
+                    <p data-aos = "fade-right" data-aos-delay = "100">Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.</p>
                     <div className = {styles.languages}>
-                        <i className="devicon-flutter-plain"></i>
-                        <i className="devicon-dart-plain"></i>
+                        <i className="devicon-flutter-plain" data-aos = "fade-up" data-aos-delay = "200"></i>
+                        <i className="devicon-dart-plain" data-aos = "fade-up" data-aos-delay = "300"></i>
                     </div>
                 </div>
-                <div className = {styles.secondBox}>
+                <div className = {styles.secondBox} data-aos = "fade-left">
                     <Image alt ="Food App UI" src = {Third} />
                 </div>
             </div>
-            <hr></hr>
+            <hr data-aos = "fade-right"></hr>
             <div className = {styles.projects}>
                 <div className = {styles.firstBox}>
-                    <h2>04 / Events App UI</h2>
-                    <p>Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.</p>
+                    <h2 data-aos = "fade-right">04 / Events App UI</h2>
+                    <p data-aos = "fade-right" data-aos-delay = "100">Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.</p>
                     <div className = {styles.languages}>
-                        <i className="devicon-flutter-plain"></i>
-                        <i className="devicon-dart-plain"></i>
+                        <i className="devicon-flutter-plain" data-aos = "fade-up" data-aos-delay = "200"></i>
+                        <i className="devicon-dart-plain" data-aos = "fade-up" data-aos-delay = "300"></i>
                     </div>
                 </div>
-                <div className = {styles.secondBox}>
+                <div className = {styles.secondBox} data-aos = "fade-left">
                     <Image alt ="Events App UI (Button Animation)" src = {Four} />
                 </div>
             </div>
-            <hr></hr>
+            <hr data-aos = "fade-right"></hr>
             <div className = {styles.projects} style = {{marginBottom: '10%'}}>
-                <div className = {styles.FullImage}>
+                <div className = {styles.FullImage} data-aos = "fade-up">
                     <Image src = {Five} alt = " Web App UI (Design from Dribble)" />
                 </div>
                 <div className = {styles.FullImageText}>
-                    <h2>05 / Web App UI (Design from Dribble)</h2>
-                    <p>Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.</p>
+                    <h2 data-aos = "fade-right">05 / Web App UI (Design from Dribble)</h2>
+                    <p data-aos = "fade-right" data-aos-delay = "100">Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.</p>
                     <div className = {styles.languages}>
-                        <i className="devicon-flutter-plain"></i>
-                        <i className="devicon-dart-plain"></i>
+                        <i className="devicon-flutter-plain" data-aos = "fade-up" data-aos-delay = "200"></i>
+                        <i className="devicon-dart-plain" data-aos = "fade-up" data-aos-delay = "300"></i>
                     </div>
                 </div>
             </div>

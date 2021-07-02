@@ -13,6 +13,8 @@ library.add (
 const Footer = () => {
     return (
         <footer>
+            <div className = {styles.shadow} data-aos = "fade-in" data-aos-delay = "600">
+            </div>
             <div className = {styles.FirstBox}>
                 <p>
                 <FontAwesomeIcon icon={['far', 'copyright']} style = {{width: '15px', paddingRight: "3px"}} />

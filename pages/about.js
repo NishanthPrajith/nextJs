@@ -23,21 +23,21 @@ export default function About() {
             </Head>
             <div className = {styles.mainTitle}>
                 <div className = {styles.One}>
-                    <p className = {styles.title}>Hi I’m Nishanth Prajith, University Student & Coder</p>
-                    <p className = {styles.description}>
+                    <p className = {styles.title} data-aos = "fade-right">Hi I’m Nishanth Prajith, University Student & Coder</p>
+                    <p className = {styles.description} data-aos = "fade-up" data-aos-delay = "300">
                         I am a dynamic and reliable Software Developer with a strong work ethic and a passion for developing user-centric products. Ability to function well independently with little to no supervision or in coordination with a professional team. Experienced in a wide array of programming languages, frameworks and content management sites such as Wordpress.
                     </p>
                 </div>
                 
-                <div className = {styles.Two}>
+                <div className = {styles.Two} data-aos = "fade-left">
                     <Image src = {Three} />
                 </div>
             </div>
             <div className = {styles.resume} style = {{marginTop: "5%"}}>
-                <div className = {styles.category}>
+                <div className = {styles.category} data-aos = "fade-up">
                     <p>Education</p>
                 </div>
-                <div className = {styles.info}>
+                <div className = {styles.info} data-aos = "fade-left">
                     <div>
                         <p>BACHELORS IN COMPUTER SCIENCE</p>
                         <p className = {styles.italic}>City College Of New York, New York City, NY (2019 - Current)</p>
@@ -51,10 +51,10 @@ export default function About() {
                 </div>
             </div>
             <div className = {styles.resume} style = {{marginTop: "6%"}}>
-                <div className = {styles.category}>
+                <div className = {styles.category} data-aos = "fade-up">
                     <p>Professional Experience</p>
                 </div>
-                <div className = {styles.info}>
+                <div className = {styles.info} data-aos = "fade-left">
                     <div>
                         <p>WEB DESIGNER</p>
                         <p className = {styles.italic}>Thomas A. Edison C.T.E High School, Jamaica, NY (2017 - 2018)</p>
@@ -64,29 +64,29 @@ export default function About() {
                 </div>
             </div>
             <div className = {styles.resume} style = {{marginTop: "6%", marginBottom: "4%"}}>
-                <div className = {styles.category}>
+                <div className = {styles.category} data-aos = "fade-up">
                     <p>Coding</p>
                 </div>
                 <div className = {styles.info}>
-                    <i className="devicon-flutter-plain"></i>
-                    <i className="devicon-html5-plain"></i>
-                    <i className="devicon-css3-plain"></i>
-                    <i className="devicon-java-plain"></i>
-                    <i className="devicon-javascript-plain"></i>
-                    <i className="devicon-cplusplus-plain"></i>
-                    <i className="devicon-mysql-plain"></i>
-                    <i className="devicon-python-plain"></i>
-                    <i className="devicon-dart-plain"></i>
+                    <i className="devicon-flutter-plain" data-aos = "zoom-in"></i>
+                    <i className="devicon-html5-plain" data-aos = "zoom-in"></i>
+                    <i className="devicon-css3-plain" data-aos = "zoom-in"></i>
+                    <i className="devicon-java-plain" data-aos = "zoom-in"></i>
+                    <i className="devicon-javascript-plain" data-aos = "zoom-in"></i>
+                    <i className="devicon-cplusplus-plain" data-aos = "zoom-in"></i>
+                    <i className="devicon-mysql-plain" data-aos = "zoom-in"></i>
+                    <i className="devicon-python-plain" data-aos = "zoom-in"></i>
+                    <i className="devicon-dart-plain" data-aos = "zoom-in"></i>
                 </div>
             </div>
-            <hr></hr>
+            <hr data-aos = "fade-right"></hr>
             <div className = {styles.contact}>
-                <div className = {styles.contactLeft}>
+                <div className = {styles.contactLeft} data-aos = "fade-up">
                     <p>If you have any questions reach out to me 
                     <FontAwesomeIcon icon={['fas', 'arrow-right']} style = {{width: '19px', marginLeft: "13px", marginTop: "3px"}} />
                     </p>
                 </div>
-                <div className = {styles.contactRight}>
+                <div className = {styles.contactRight} data-aos = "fade-up">
                     <p>nishanth.prajith@gmail.com</p>
                     <p>View Resume</p>
                 </div>

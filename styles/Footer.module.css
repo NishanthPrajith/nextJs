@@ -18,7 +18,30 @@
     text-align: center;
 }
 
+.shadow  {
+    position: absolute;
+    top: 0;
+    height: 120px;
+    width: 120px;
+    margin-left: 10%;
+    margin-top: -3.5%;
+    background: linear-gradient(210.55deg, #FFFFFF 9.81%, #121416 93.08%);
+    box-shadow: 43.6177px 14.5392px 77.5426px rgba(2, 3, 3, 0.4), -14.5392px -24.2321px 67.8498px rgba(232, 237, 243, 0.05), inset -19.3856px -7.26962px 96.9282px rgba(248, 249, 249, 0.03);
+    border-radius: 73.2949px;
+    transform: rotate(-90deg);
+}
+
+@media screen and (max-width: 1025px) {
+    .shadow {
+        margin-top: -6%;
+    }
+}
+
 @media screen and (max-width: 850px) {
+    .shadow {
+        margin-top: -8%;
+        margin-left: 12%;
+    }
     .FirstBox {
         width: 100%;
         float: left;
