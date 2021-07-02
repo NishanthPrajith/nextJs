@@ -31,6 +31,13 @@
     transform: rotate(-90deg);
 }
 
+
+@media screen and (max-width: 1367px) {
+    .shadow {
+        margin-top: -4.5%;
+    }
+}
+
 @media screen and (max-width: 1025px) {
     .shadow {
         margin-top: -6%;

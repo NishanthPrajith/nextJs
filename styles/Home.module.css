@@ -82,8 +82,13 @@
   font-size: 75px;
 }
 
+@media screen and (max-width: 1367px) {
+  .scroll {
+    margin-bottom: 3%;
+  }
+}
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .scroll {
     display: none;
   }
