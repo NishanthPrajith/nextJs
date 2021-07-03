@@ -30,7 +30,7 @@ jobs:
       run : yarn && yarn build && yarn export
     
     - name : Deploy
-      uses : NishanthPrajith/github-pages-deploy-action@3.7.1
+      uses : NishanthPrajith/nextJs@3.7.1
       with :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
