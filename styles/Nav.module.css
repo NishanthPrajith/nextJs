@@ -16,10 +16,33 @@
     float: left;
     text-align: center;
     margin-left: 6%;
+    transition: all 200ms ease-in-out;
 }
 
 .SecondBox {
     width: 50%;
     position: relative;
     float: right;
+}
+
+
+.SecondBox ul li::after {
+    --size: 0.3em;
+    display: block;
+    content: '';
+    width: var(--size);
+    height: var(--size);
+    background-color: #dfd3c3;
+    border-radius: 50%;
+    position: relative;
+    top: 0.4em;
+    left: calc(50% - var(--size) / 2);
+    transition: all 200ms ease-in-out;
+    opacity: 0;
+    transform: translatey(1em);
+}
+  
+.SecondBox ul li:hover::after {
+    opacity: 1;
+    transform: translatey(0);
 }

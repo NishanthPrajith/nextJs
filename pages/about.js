@@ -23,16 +23,14 @@ export default function About() {
             </Head>
 
             <p className = {styles.title} data-aos = "fade-right">Hi, I&apos;m Nishanth Prajith</p>
-            <p className = {styles.sub}>University Student & Coder</p>
+            <p className = {styles.sub} data-aos = "fade-left">University Student & Coder</p>
 
             <div className = {styles.mainTitle}>
                 <div className = {styles.Two} data-aos = "fade-left">
-                    <Image src = {Three} alt = "My Image"/>
                 </div>
                 <div className = {styles.One}>
                     <p className = {styles.description} data-aos = "fade-up" data-aos-delay = "300">
-                        ABOUT <br></br><br></br>
-                        I am a dynamic and reliable Software Developer with a strong work ethic and a passion for developing user-centric products. Ability to function well independently with little to no supervision or in coordination with a professional team. Experienced in a wide array of programming languages, frameworks and content management sites such as Wordpress.
+                        Born and raised in Kerala, India. Currently living in New York City, United States of America. I am a dynamic and reliable Software Developer with a strong work ethic and a passion for developing user-centric products. Ability to function well independently with little to no supervision or in coordination with a professional team. Experienced in a wide array of programming languages, frameworks and content management sites such as Wordpress.
                     </p>
                 </div>
             </div>
@@ -42,16 +40,16 @@ export default function About() {
                 </div>
                 <div className = {styles.info} data-aos = "fade-left">
                     <div>
-                        <p>2019 - CURRENT</p>
-                        <p>BACHELORS IN COMPUTER SCIENCE</p>
-                        <p>City College Of New York, New York City, NY</p>
-                        <p>I studied web developement and graphic design, specically HTML, CSS, Adobe Photoshop and Illustrator.</p>
+                        <p data-aos = "fade-right" data-aos-delay = "100">2019 - CURRENT</p>
+                        <p data-aos = "fade-left" data-aos-delay = "200">BACHELORS IN COMPUTER SCIENCE</p>
+                        <p data-aos = "fade-right" data-aos-delay = "300">City College Of New York, New York City, NY</p>
+                        <p data-aos = "fade-left" data-aos-delay = "400">I studied web developement and graphic design, specically HTML, CSS, Adobe Photoshop and Illustrator.</p>
                     </div>
                     <div className = {styles.second}>
-                        <p>2015 - 2018</p>
-                        <p>WEB DESIGN</p>
-                        <p>Thomas A. Edison C.T.E High School, Jamaica, NY</p>
-                        <p>Currently, studying Computer science at the grove school of engineering.</p>
+                        <p data-aos = "fade-right" data-aos-delay = "100">2015 - 2018</p>
+                        <p data-aos = "fade-left" data-aos-delay = "200">WEB DESIGN</p>
+                        <p data-aos = "fade-right" data-aos-delay = "300">Thomas A. Edison C.T.E High School, Jamaica, NY</p>
+                        <p data-aos = "fade-left" data-aos-delay = "400">Currently, studying Computer science at the grove school of engineering.</p>
                     </div>
                 </div>
             </div>
@@ -61,10 +59,10 @@ export default function About() {
                 </div>
                 <div className = {styles.info} data-aos = "fade-left">
                     <div>
-                        <p>2017 - 2018</p>
-                        <p>WEB DESIGNER</p>
-                        <p>Thomas A. Edison C.T.E High School, Jamaica, NY</p>
-                        <p>I maintained the schools website, and updated it with new events and annoucments on a weekly basis.</p>
+                        <p data-aos = "fade-right" data-aos-delay = "100">2017 - 2018</p>
+                        <p data-aos = "fade-left" data-aos-delay = "200">WEB DESIGNER</p>
+                        <p data-aos = "fade-right" data-aos-delay = "300">Thomas A. Edison C.T.E High School, Jamaica, NY</p>
+                        <p data-aos = "fade-left" data-aos-delay = "400">I maintained the schools website, and updated it with new events and annoucments on a weekly basis.</p>
                     </div>
                     
                 </div>
@@ -74,15 +72,15 @@ export default function About() {
                     <p>Coding</p>
                 </div>
                 <div className = {styles.code}>
-                    <p data-aos = "fade-down">Flutter</p>
-                    <p data-aos = "fade-down">HTML5</p>
-                    <p data-aos = "fade-down">CSS3</p>
-                    <p data-aos = "fade-down">C++</p>
-                    <p data-aos = "fade-down">JAVA</p>
-                    <p data-aos = "fade-down">Python</p>
-                    <p data-aos = "fade-down">MySQL</p>
-                    <p data-aos = "fade-down">Dart</p>
-                    <p data-aos = "fade-down">Javascript</p>
+                    <p data-aos = "fade-down" data-aos-delay = "1000">Flutter</p>
+                    <p data-aos = "fade-down" data-aos-delay = "200">HTML5</p>
+                    <p data-aos = "fade-down" data-aos-delay = "300">CSS3</p>
+                    <p data-aos = "fade-down" data-aos-delay = "400">C++</p>
+                    <p data-aos = "fade-down" data-aos-delay = "500">JAVA</p>
+                    <p data-aos = "fade-down" data-aos-delay = "600">Python</p>
+                    <p data-aos = "fade-down" data-aos-delay = "700">MySQL</p>
+                    <p data-aos = "fade-down" data-aos-delay = "800">Dart</p>
+                    <p data-aos = "fade-down" data-aos-delay = "900">Javascript</p>
                 </div>
             </div>
             <div className = {styles.resume} style = {{marginTop: "6%", marginBottom: "4%"}}>
@@ -90,12 +88,12 @@ export default function About() {
                     <p>Achievements</p>
                 </div>
                 <div className = {styles.achieve}>
-                    <p data-aos = "fade-right">SkillsUSA Web Design National 6th place winner (2018)</p>
-                    <hr style = {{width: "23%", clear: "both"}}></hr>
-                    <p>SkillsUSA Web Design State Champion (2018 & 2017)</p>
-                    <hr style = {{width: "28%", clear: "both"}}></hr>
-                    <p>City Wide Graphic Arts Competition 3rd place winner (2018)</p>
-                    <hr style = {{width: "25%", clear: "both"}}></hr>
+                    <p data-aos = "fade-right" data-aos-delay = "100">SkillsUSA Web Design National 6th place winner (2018)</p>
+                    <hr data-aos = "fade-right" data-aos-delay = "200" style = {{width: "23%", clear: "both"}}></hr>
+                    <p data-aos = "fade-right" data-aos-delay = "300" >SkillsUSA Web Design State Champion (2018 & 2017)</p>
+                    <hr data-aos = "fade-right" data-aos-delay = "400" style = {{width: "28%", clear: "both"}}></hr>
+                    <p data-aos = "fade-right" data-aos-delay = "500">City Wide Graphic Arts Competition 3rd place winner (2018)</p>
+                    <hr data-aos = "fade-right" data-aos-delay = "400" style = {{width: "25%", clear: "both"}}></hr>
                 </div>
             </div>
             <hr data-aos = "fade-right"></hr>
