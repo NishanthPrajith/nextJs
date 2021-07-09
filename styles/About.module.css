@@ -1,5 +1,7 @@
 .container {
     width: 100%;
+    margin-top: 10%;
+    color: #dfd3c3;
 }
 
 
@@ -7,8 +9,8 @@
     width: 100%;
     height: 92vh;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .One {
@@ -27,15 +29,25 @@
 
 .title {
     font-weight: 600;
-    font-size: 52px;
+    font-size: 82px;
+    margin: 4% 0 0 0;
+    width: 100%;
+}
+
+.sub {
     margin: 0;
-    width: 60%;
+    font-size: 36px;
+    margin-bottom: 8%;
+    color: #606060;
+}
+
+.subtitle {
+    font-size: 52px;
 }
 
 .description {
-    font-size: 22px;
+    font-size: 25px;
     width: 75%;
-    color: #606060;
 }
 
 .contact {
@@ -53,55 +65,115 @@
 .contactLeft p {
     font-size: 32px;
     width: 60%;
-    color: #181717;
 }
 
 .contactRight p:nth-child(1) {
     font-size: 32px;
-    color: #181717;
 }
 
-.contactRight p:nth-child(2) {
+.arrow {
+    width: 25px;
+    height: 25px;
+    margin-left: 13px;
+    margin-top: 3px;
+}
+
+
+.arrow::after {
+    transition: transform 0.25s ease-out;
+}
+
+.arrow:hover {
+    transform: rotate(-45deg);
+    background-color: #633b15;
+    padding: 3px;
+    border-radius: 100%;
+}
+
+.resumeLink {
     font-size: 18px;
-    color: #181717;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 1%;
+    text-align: center;
+    margin: 0;
 }
-
-.contactRight p:nth-child(2):hover {
-    text-decoration: underline;
+.resumeLink::after {
+    content: '';
+    position: absolute;
+    width: 65%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+    background-color: #dfd3c3;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+}
+.resumeLink:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .resume {
-    width: 100%;
+    width: 80%;
+    margin: 0 10%;
     display: flex;
     justify-content: center;
 }
 
 .info p:nth-child(n + 2){
-    margin: 0;
+    margin: 4px 0;
 }
 
 .category p {
     margin: 0;
 }
 
-.italic {
-    font-style: italic;
-}
-
 .category {
-    width: 25%;
-    font-size: 24px;
-    font-weight: 600;
-    text-decoration: underline;
-    text-underline-offset: 3.55px;
+    width: 43%;
+    font-size: 42px;
+    font-weight: 500;
 }
 
 .info {
-    width: 75%;
+    width: 57%;
+}
+
+.achieve {
+    width: 57%;
+}
+
+.achieve p {
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.code {
+    width: 57%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 33.33%);
+}
+
+.info div:nth-child(1) {
+    margin-bottom: 8%;
 }
 
 .info div p:nth-child(1) {
-    margin-top: 0;
+    font-size: 18px;
+}
+
+.info div p:nth-child(2) {
+    font-size: 22px;
+    font-weight: 600;
+}
+.info div p:nth-child(3) {
+    font-size: 18px;
+}
+.info div p:nth-child() {
+    font-size: 18px;
 }
 
 .info i {
