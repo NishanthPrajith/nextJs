@@ -22,7 +22,7 @@ export default function About() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <p className = {styles.title} data-aos = "fade-right">Hi, I’m Nishanth Prajith</p>
+            <p className = {styles.title} data-aos = "fade-right">Hi, I&apos;m Nishanth Prajith</p>
             <p className = {styles.sub}>University Student & Coder</p>
 
             <div className = {styles.mainTitle}>
