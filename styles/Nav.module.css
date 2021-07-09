@@ -25,7 +25,6 @@
     float: right;
 }
 
-
 .SecondBox ul li::after {
     --size: 0.3em;
     display: block;
@@ -45,4 +44,17 @@
 .SecondBox ul li:hover::after {
     opacity: 1;
     transform: translatey(0);
+}
+
+.strike {
+    position: relative;
+    display: inline-block;
+}
+.strike::before {
+    content: '';
+    border-bottom: 2px solid #dfd3c3;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 40%;
 }
