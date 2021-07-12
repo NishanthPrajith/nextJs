@@ -14,7 +14,7 @@ library.add (
 const Footer = () => {
     const router = useRouter();
     return (
-        <footer style = {router.pathname === "/about"
+        <footer style = {(router.pathname === "/about") || (router.pathname === "/contact")
             ? {position: "absolute", bottom: "0"}
             : {}
         }>
