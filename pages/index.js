@@ -11,25 +11,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className = {styles.box}>
-          <p className = {styles.title} data-aos = "fade-right">Hello, I&apos;m <br></br>Nishanth Prajith.</p>
-          <div className = {styles.info} data-aos="fade-up">
-            <div className = {styles.scroll}>
-                <p>&larr; Scroll Down</p>
-            </div>
-            <div className = {styles.introText}>
-              <p data-aos = "fade-up" data-aos-delay="500">A junior computer science student who is aspiring to be a Data Scientist.</p>
-            </div>
-            <div className = {styles.introImage}>
-              <p>Hello world!</p>
-            </div>
-            <div className = {styles.introTextTwo}>
-              <div>
-                  <p>A junior computer science student who is aspiring to be a Data Scientist.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <p>Hello world</p>
       </main>
     </div>
   )
