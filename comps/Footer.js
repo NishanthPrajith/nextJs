@@ -14,10 +14,7 @@ library.add (
 const Footer = () => {
     const router = useRouter();
     return (
-        <footer style = {(router.pathname === "/about") || (router.pathname === "/contact")
-            ? {position: "absolute", bottom: "0"}
-            : {}
-        }>
+        <footer style = {{position: "absolute", bottom: "0"}}>
             <div className = {styles.shadow} data-aos = "fade-in" data-aos-delay = "600">
             </div>
             <div className = {styles.FirstBox}>
