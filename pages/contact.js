@@ -5,7 +5,11 @@ export default function Contact() {
         <div className = {styles.container}>
             <div>
                 <p className = {styles.title}>Contact me</p>
-                <h1 className = {styles.email}>nishanth.prajith@gmail.com</h1>
+                <h1 className = {styles.email}>
+                    <a href = "mailto: nishanth.prajith@gmail.com">
+                        nishanth.prajith@gmail.com
+                    </a>
+                </h1>
             </div>
         </div>
     );

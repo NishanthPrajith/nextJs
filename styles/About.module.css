@@ -86,10 +86,11 @@
 }
 
 .arrow {
-    width: 22px;
-    height: 22px;
+    width: 25px;
+    height: 18px;
     margin-left: 8px;
     margin-top: 3px;
+    padding: 0.5%;
 }
 
 
@@ -98,14 +99,10 @@
     padding-top: 3%;
 }
 
-.arrow::after {
-    transition: transform 0.25s ease-out;
-}
 
 .arrow:hover {
     transform: rotate(-45deg);
     background-color: #ffffff;
-    padding: 3px;
     border-radius: 100%;
     color: #000000;
 }

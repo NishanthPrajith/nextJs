@@ -67,7 +67,7 @@ export default function About() {
                         </div>
                     </div>
 
-                    <p className = {styles.subtitle}>Coding</p>
+                    <p className = {styles.subtitle} data-aos = "fade-up">Coding</p>
                     <div className = {styles.language}>
                         <p>Flutter</p>
                         <p>Dart</p>
@@ -83,9 +83,9 @@ export default function About() {
                     <p className = {styles.resumeLink}>View Resume</p>
 
                     <p className = {styles.contact}>Get in touch 
-                    <Link href = '/contact'>
-                        <FontAwesomeIcon className = {styles.arrow} icon={['fas', 'arrow-right']}/>
-                    </Link>
+                        <Link href = '/contact'>
+                            <FontAwesomeIcon className = {styles.arrow} icon={['fas', 'arrow-right']}/>
+                        </Link>
                     </p>
                 </div>
                 <div className = {styles.info}>

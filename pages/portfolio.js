@@ -20,15 +20,15 @@ export default function Portfolio() {
                 <div className = {styles.horizontal}>
                     <div className = {styles.info}>
                         <div>
-                            <p className = {styles.title}>MY PROJECTS.</p>
-                            <p className = {styles.subtitle}>Scroll Left <span styles = {{marginLeft: "20%"}}>&#62;</span> </p> 
+                            <p className = {styles.title} data-aos = "fade-up">MY PROJECTS.</p>
+                            <p className = {styles.subtitle} data-aos = "fade-up">Scroll Left <span styles = {{marginLeft: "20%"}}>&#62;</span> </p> 
                         </div>
                     </div>
                     <div className = {styles.child}>
-                        <div className = {styles.image}>
+                        <div className = {styles.image} data-aos = "fade-left">
                             <Image src = {first}/>
                         </div>
-                        <div className = {styles.projectinfo}>
+                        <div className = {styles.projectinfo} data-aos = "fade-up">
                             <h1>01</h1>
                             <p>UI with Google Maps</p>
                             <div className = {styles.languages}>
@@ -38,10 +38,10 @@ export default function Portfolio() {
                         </div>
                     </div>
                     <div className = {styles.child}>
-                        <div className = {styles.image}>
+                        <div className = {styles.image} data-aos = "fade-left">
                             <Image src = {second}/>
                         </div>
-                        <div className = {styles.projectinfo}>
+                        <div className = {styles.projectinfo} data-aos = "fade-up">
                             <h1>02</h1>
                             <p>Music app UI</p>
                             <div className = {styles.languages}>
@@ -51,10 +51,10 @@ export default function Portfolio() {
                         </div>
                     </div>
                     <div className = {styles.child}>
-                        <div className = {styles.image}>
+                        <div className = {styles.image} data-aos = "fade-left">
                             <Image src = {three}/>
                         </div>
-                        <div className = {styles.projectinfo}>
+                        <div className = {styles.projectinfo} data-aos = "fade-up">
                             <h1>03</h1>
                             <p>Food app UI</p>
                             <div className = {styles.languages}>
@@ -64,10 +64,10 @@ export default function Portfolio() {
                         </div>
                     </div>
                     <div className = {styles.child}>
-                        <div className = {styles.image}>
+                        <div className = {styles.image} data-aos = "fade-left">
                             <Image src = {four}/>
                         </div>
-                        <div className = {styles.projectinfo}>
+                        <div className = {styles.projectinfo} data-aos = "fade-up">
                             <h1>04</h1>
                             <p>Events app UI <br></br>(Button slider animation)</p>
                             <div className = {styles.languages}>

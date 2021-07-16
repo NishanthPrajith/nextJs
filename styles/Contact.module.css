@@ -14,3 +14,30 @@
 .email {
     font-size: 3.5em;
 }
+
+.email a {
+    font-size: 1.25em;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2%;
+    text-align: center;
+    margin: 0;
+}
+.email a::after {
+    content: '';
+    position: absolute;
+    width: 65%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+    background-color: #000000;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+}
+.email a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
